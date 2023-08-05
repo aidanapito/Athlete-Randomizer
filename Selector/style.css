@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(190deg,#161010, #946868);
+    padding: 10px;
+}
+
+.selector {
+    width: 100%;
+    max-width: 182vh;
+    background: white;
+    border-radius: 20px;
+    margin: 80px auto 20px;
+    padding: 40px 30px 10vh;
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sportHeader {
+    display: flex;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 40px auto 0px;
+    width: 10vw;
+    color: white;
+    
+}
+
+.cardFootball{
+    
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 20px;
+    margin: 40px 0 40px;
+    padding: 40px 0 30vh;
+    background-image: url(images/footballLogo.jpg);
+    background-size: cover;
+    size-adjust: 10vh;
+    background-position: center;
+    cursor: pointer;
+
+}
+
+.cardBasketball{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 40px 0 40px;
+    padding: 40px 0 30vh;
+    background-image: url(images/basketballLogo.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
+.cardHockey{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 40px 0 40px;
+    padding: 25vh 0 22vh;
+    background-image: url(images/hockeyLogoNew.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
+.cardSoccer{
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    margin: 40px 0 40px;
+    padding: 40px 0 30vh;
+    background-image: url(images/SoccerLogo.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+}
